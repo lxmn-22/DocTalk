@@ -2,7 +2,9 @@ import React from 'react'
 
 function MyAppointment() {
   return (
-    <div></div>
+    <div>
+      
+    </div>
   )
 }
 
