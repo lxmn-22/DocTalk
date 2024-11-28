@@ -16,5 +16,5 @@ const Home = () => {
 }
 
 export default Home
-// Time paused: 01:59:43
-// Time paused: 06:33:00
+// Time paused: 01:59:43 
+// Time paused: 06:48:20
