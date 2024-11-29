@@ -8,8 +8,10 @@ import { toast } from 'react-toastify'
 const Login = () => {
 
     const [state, setState] = useState('Admin')
+
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+
     const { setAToken, backendUrl } = useContext(AdminContext)
 
     const onSubmitHandler = async (event) => {
@@ -25,11 +27,9 @@ const Login = () => {
                     toast.error(data.message)
                 }
             } else {
-
+                /* empty */
             }
-        } catch (error) {
-            
-        }
+        } catch (error) { /* empty */ }
     }
 
   return (
