@@ -27,7 +27,7 @@ const AppContextProvider = (props) => {
             toast.error(error.message)
         }
     }
-
+    // "[]" dependency array.
     useEffect(()=> {
         getDoctorsData()
     },[])
