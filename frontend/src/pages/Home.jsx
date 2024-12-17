@@ -17,8 +17,6 @@ const Home = () => {
 
 export default Home
 
-// Time paused: 15:36:26
-
 /*
 frontend: npm run dev
 backend: npm run server
