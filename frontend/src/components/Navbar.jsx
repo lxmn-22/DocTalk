@@ -102,7 +102,12 @@ const Navbar = () => {
 					} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}
 				>
 					<div className="flex items-center justify-between px-5 py-6">
-						<img className="w-36" src={assets.logo} alt="" />
+						<NavLink
+							to="/"
+							className="w-36 text-4xl font-semibold text-primary cursor-pointer"
+						>
+							DocTalk
+						</NavLink>
 						<img
 							className="w-7"
 							onClick={() => setShowMenu(false)}
